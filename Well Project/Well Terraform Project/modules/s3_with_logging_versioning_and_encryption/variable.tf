@@ -5,7 +5,7 @@ variable "kms_key_deletion_period" {
   description = "The number of days to retain the KMS key before deleting it"
 }
 
-# S3
+#S3
 variable "bucket_name" {
     type = string
     description = "S3 bucket name"
